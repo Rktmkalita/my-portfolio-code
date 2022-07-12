@@ -1,0 +1,27 @@
+.contact {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  height: 78%;
+}
+
+.text {
+  font-size: 23px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 15px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
