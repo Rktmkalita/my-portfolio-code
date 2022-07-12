@@ -14,6 +14,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { CertificatesComponent } from './pages/certificates/certificates.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
     NotFoundComponent,
     CertificatesComponent,
     ProjectsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

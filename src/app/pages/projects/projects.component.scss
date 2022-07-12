@@ -1,0 +1,38 @@
+.container {
+  margin-top: 3em;
+  margin-left: 7em;
+}
+
+.text {
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #2a7ae2;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
