@@ -1,11 +1,11 @@
-import { ContactComponent } from './pages/contact/contact.component';
-import { ProjectsComponent } from './pages/projects/projects.component';
-import { CertificatesComponent } from './pages/certificates/certificates.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CertificatesComponent } from './pages/certificates/certificates.component';
+import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
 
 const routes: Routes = [
   {
